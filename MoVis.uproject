@@ -1,0 +1,107 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.27",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "UXToolsGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		},
+		{
+			"Name": "UXToolsTests",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "UXTools",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f9f9cddaf5834ad1abeda49da34adf85",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android"
+			]
+		},
+		{
+			"Name": "UXToolsExamples",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamVR",
+			"Enabled": false,
+			"SupportedTargetPlatforms": [
+				"Win32",
+				"Win64",
+				"Linux",
+				"Mac"
+			]
+		},
+		{
+			"Name": "HoloLensAR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "EditorTests",
+			"Enabled": true
+		},
+		{
+			"Name": "FbxAutomationTestBuilder",
+			"Enabled": true
+		},
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
+		},
+		{
+			"Name": "RuntimeTests",
+			"Enabled": true
+		},
+		{
+			"Name": "GoogleARCore",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Android"
+			]
+		},
+		{
+			"Name": "XRVisualization",
+			"Enabled": true
+		},
+		{
+			"Name": "MicrosoftOpenXR",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/ef8930ca860148c498b46887da196239",
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens"
+			]
+		},
+		{
+			"Name": "MrtkHub",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/211d009f26e943f19f41bbbaff9f273c"
+		},
+		{
+			"Name": "GraphicsTools",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"HoloLens",
+				"Android"
+			]
+		}
+	]
+}
